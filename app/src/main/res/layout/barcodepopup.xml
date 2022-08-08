@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Barcode Preview"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt1"/>
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#C1BEBE"
+        android:layout_below="@id/txt1"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/img1"
+        android:scaleType="centerCrop"
+        android:id="@+id/imgReview1"
+        android:layout_below="@id/view1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extracted Bar-Code Information"
+        android:id="@+id/txt3"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_below="@+id/imgReview1"/>
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#C1BEBE"
+        android:layout_below="@id/txt3"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="Abba"
+        android:textIsSelectable="true"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/view2"
+        android:id="@+id/resulttext"
+        android:layout_marginLeft="10dp"/>
+
+</RelativeLayout>

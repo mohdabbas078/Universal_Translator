@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/LL"
+        android:icon="@drawable/airplane"
+        android:title="Latn Languages(31)" />
+    <item
+        android:id="@+id/IL"
+        android:icon="@drawable/india"
+        android:title="Indian Languages(3)"/>
+    <item
+        android:id="@+id/JL"
+        android:icon="@drawable/japan"
+        android:title="Japan Language(1)"/>
+    <item
+        android:id="@+id/CL"
+        android:icon="@drawable/china"
+        android:title="China Language(1)"/>
+    <item
+        android:id="@+id/KL"
+        android:icon="@drawable/southkorea"
+        android:title="Korean Language(1)"/>
+</menu>

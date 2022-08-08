@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:flow_horizontalAlign="center">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl1"
+    >
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/titleImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true" />
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:id="@+id/tcard2"
+        card_view:cardBackgroundColor="@color/white"
+        card_view:cardCornerRadius="12dp"
+        android:elevation="1dp"
+        android:visibility="gone"
+        android:layout_margin="15dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/mohdabbasprofilepic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mohd"
+            app:civ_border_width="4dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            app:civ_border_color="@color/white"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/heading_one"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_below="@+id/rl1"
+        android:textSize="28dp"/>
+
+    <TextView
+        android:id="@+id/textdeccription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texttitle"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/desc_one"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,254 @@
+<resources>
+    <string name="app_name">Universal Translator</string>
+
+    <string-array name="fromItem">
+        <item>Auto Detect</item>
+        <item> Afrikaans	</item>
+        <item>	Amharic	</item>
+        <item>	Arabic	</item>
+        <item>	Arabic Latn</item>
+        <item>	Azerbaijani	</item>
+        <item>	Belarusian	</item>
+        <item>	Bulgarian	</item>
+        <item>	Bulgarian Latn	</item>
+        <item>	Bengali	</item>
+        <item>	Bosnian	</item>
+        <item>	Catalan	</item>
+        <item>	Cebuano	</item>
+        <item>	Corsican	</item>
+        <item>	Czech	</item>
+        <item>	Welsh	</item>
+        <item>	Danish	</item>
+        <item>	German	</item>
+        <item>	Greek	</item>
+        <item>	Greek Latn	</item>
+        <item>	English	</item>
+        <item>	Esperanto	</item>
+        <item>	Spanish	</item>
+        <item>	Estonian	</item>
+        <item>	Basque	</item>
+        <item>	Persian	</item>
+        <item>	Finnish	</item>
+        <item>	Filipino	</item>
+        <item>	French	</item>
+        <item>	Western Frisian	</item>
+        <item>	Irish	</item>
+        <item>	Scots Gaelic	</item>
+        <item>	Galician	</item>
+        <item>	Gujarati	</item>
+        <item>	Hausa	</item>
+        <item>	Hawaiian	</item>
+        <item>	Hebrew	</item>
+        <item>	Hindi	</item>
+        <item>	Hindi Latn	</item>
+        <item>	Hmong	</item>
+        <item>	Croatian	</item>
+        <item>	Haitian	</item>
+        <item>	Hungarian	</item>
+        <item>	Armenian	</item>
+        <item>	Indonesian	</item>
+        <item>	Igbo	</item>
+        <item>	Icelandic	</item>
+        <item>	Italian	</item>
+        <item>	Japanese	</item>
+        <item>	Japanese Latn	</item>
+        <item>	Javanese	</item>
+        <item>	Georgian	</item>
+        <item>	Kazakh	</item>
+        <item>	Khmer	</item>
+        <item>	Kannada	</item>
+        <item>	Korean	</item>
+        <item>	Kurdish	</item>
+        <item>	Kyrgyz	</item>
+        <item>	Latin	</item>
+        <item>	Luxembourgish	</item>
+        <item>	Lao	Lao</item>
+        <item>	Lithuanian	</item>
+        <item>	Latvian	</item>
+        <item>	Malagasy	</item>
+        <item>	Maori	</item>
+        <item>	Macedonian	</item>
+        <item>	Malayalam	</item>
+        <item>	Mongolian	</item>
+        <item>	Marathi	</item>
+        <item>	Malay	</item>
+        <item>	Maltese	</item>
+        <item>	Burmese	</item>
+        <item>	Nepali	</item>
+        <item>	Dutch	</item>
+        <item>	Norwegian	</item>
+        <item>	Nyanja	</item>
+        <item>	Punjabi	</item>
+        <item>	Polish	</item>
+        <item>	Pashto	</item>
+        <item>	Portuguese	</item>
+        <item>	Romanian	</item>
+        <item>	Russian	</item>
+        <item>	Russian  Latn	</item>
+        <item>	Sindhi	</item>
+        <item>	Sinhala	</item>
+        <item>	Slovak	</item>
+        <item>	Slovenian	</item>
+        <item>	Samoan	</item>
+        <item>	Shona	</item>
+        <item>	Somali	</item>
+        <item>	Albanian	</item>
+        <item>	Serbian	</item>
+        <item>	Sesotho	</item>
+        <item>	Sundanese	</item>
+        <item>	Swedish	</item>
+        <item>	Swahili	</item>
+        <item>	Tamil	</item>
+        <item>	Telugu	</item>
+        <item>	Tajik	</item>
+        <item>	Thai	</item>
+        <item>	Turkish	</item>
+        <item>	Ukrainian	</item>
+        <item>	Urdu	</item>
+        <item>	Uzbek	</item>
+        <item>	Vietnamese	</item>
+        <item>	Xhosa	</item>
+        <item>	Yiddish	</item>
+        <item>	Yoruba	</item>
+        <item>	Chinese	</item>
+        <item>	Chinese Latn	</item>
+        <item>	Zulu</item>
+    </string-array>
+
+
+    <string-array name="toItem">
+        <item>Select Target Language</item>
+        <item> Afrikaans	</item>
+
+        <item>	Arabic	</item>
+
+
+        <item>	Belarusian	</item>
+        <item>	Bulgarian	</item>
+
+        <item>	Bengali	</item>
+
+        <item>	Catalan	</item>
+
+        <item>	Czech	</item>
+        <item>	Welsh	</item>
+        <item>	Danish	</item>
+        <item>	German	</item>
+        <item>	Greek	</item>
+
+        <item>	English	</item>
+        <item>	Esperanto	</item>
+        <item>	Spanish	</item>
+        <item>	Estonian	</item>
+
+        <item>	Persian	</item>
+        <item>	Finnish	</item>
+
+        <item>	French	</item>
+
+        <item>	Irish	</item>
+
+        <item>	Galician	</item>
+        <item>	Gujarati	</item>
+
+        <item>	Hebrew	</item>
+        <item>	Hindi	</item>
+
+        <item>	Croatian	</item>
+
+        <item>	Hungarian	</item>
+
+        <item>	Indonesian	</item>
+
+        <item>	Icelandic	</item>
+        <item>	Italian	</item>
+        <item>	Japanese	</item>
+
+        <item>	Georgian	</item>
+
+        <item>	Kannada	</item>
+        <item>	Korean	</item>
+
+        <item>	Lithuanian	</item>
+        <item>	Latvian	</item>
+
+        <item>	Macedonian	</item>
+
+        <item>	Marathi	</item>
+        <item>	Malay	</item>
+        <item>	Maltese	</item>
+
+        <item>	Dutch	</item>
+        <item>	Norwegian	</item>
+
+        <item>	Polish	</item>
+
+        <item>	Portuguese	</item>
+        <item>	Romanian	</item>
+        <item>	Russian	</item>
+
+
+        <item>	Slovak	</item>
+        <item>	Slovenian	</item>
+
+        <item>	Albanian	</item>
+
+        <item>	Swedish	</item>
+        <item>	Swahili	</item>
+        <item>	Tamil	</item>
+        <item>	Telugu	</item>
+        <item>     Tagalog</item>
+        <item>	Thai	</item>
+        <item>	Turkish	</item>
+        <item>	Ukrainian	</item>
+        <item>	Urdu	</item>
+
+        <item>	Vietnamese	</item>
+
+        <item>	Chinese	</item>
+
+    </string-array>
+
+
+
+
+    //Headings
+    <string name="heading_one">About Myself</string>
+    <string name="heading_two">Language Identification</string>
+    <string name="heading_three">Text Recognition</string>
+    <string name="heading_fourth">Translation</string>
+    <string name="heading_five">Translate File</string>
+    <string name="heading_six">Bar-Code Scanner</string>
+    <string name="heading_seven">Future-Enhancement</string>
+    <string name="heading_eight">DEVELOPER DETAILS</string>
+    //Description
+    <string name="desc_one">My aim is to automate the application to overcome from the language barrier among countries and also states within the country \n
+    I am able to recognize the text present in the image which is stored in system or captured using camera, i am also able to work on text or Pdf File  and translate the text into the language needed and display the translation result back on to the screen of system.
+    </string>
+    <string name="desc_two">Broad language support:=> Identifies over one hundred different languages.\n\n
+    Romanized text support:=> Identifies Arabic, Bulgarian, Greek, Hindi, Japanese, Russian, and Chinese text in both native and romanized script.</string>
+
+    <string name="desc_three">=> Recognize text across various scripts and languages Supports recognizing text in Chinese, Devanagari, Japanese, Korean and Latin scripts \n
+    => Analyzes structure of text Supports detection of words/elements, lines and paragraphs\n
+    => Identify language of text Identifies the language of the recognized text\n
+    => Real-time recognition Can recognize text in real-time on a wide range of devices</string>
+
+
+    <string name="desc_fourth">Broad language support Translate between more than 50 different languages\n\n
+     Runs on the device Translations are performed quickly, and do not require you to send users text to a remote server.</string>
+
+    <string name="desc_five">=> The User can give the input via a file. But make sure the input file will be a TEXT file or a PDF file.\n\n
+     => Broad language support Translate between more than 50 different languages.
+    </string>
+
+    <string name="desc_six"> => Reads most standard formats \n
+        1. Linear formats: Codabar, Code 39, Code 93, Code 128, EAN-8, EAN-13, ITF, UPC-A, UPC-E\n
+        2. 2D formats: Aztec, Data Matrix, PDF417, QR Code</string>
+
+    <string name="desc_seven"> •	Conversation:- Here User Needs to Give the Voice input to application the application will detect the input voice language type. After that application will translate the voice and will give the output as a voice. \n
+    •	Model Management:- The problem is that when the application will download the model the size of Application will gets increase and the application do not have any model management option. In future this feature will overcome the Size Problem Of the Application.
+    </string>
+
+    <string name="desc_eight">Name: MOHD ABBAS\nQualification: Masters (MCA)\n\nContact-Email: mohdabba078@gmail.com\n\nGuide Name: Dr. Kamalraj R (Associate Professor)\n\nUniversity: Jain University, Department of MCA School of Computer Science And IT, Jain Knowledge Campus,Jayanagar 9th Block, Bangalore,Karnataka,India \n
+    </string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="40dp"
+    android:layout_height="match_parent">
+
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/toItem"
+                android:id="@+id/to"/>
+            <View
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C1BEBE"
+                android:layout_below="@id/to"
+               />
+            <EditText
+                android:id="@+id/body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tap to Enter Source Language Text"
+                android:inputType="textEmailAddress"
+                android:padding="30dp"
+                android:layout_below="@+id/view5"
+                />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analyse"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/body"
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/analybtn"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Translate"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/body"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/analybtn"
+                android:backgroundTint="@color/colorAccent"
+                android:id="@+id/tranbtn"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#1DCF25"
+                android:textSize="17dp"
+                android:textIsSelectable="true"
+                android:id="@+id/resulttext"
+                android:layout_below="@id/tranbtn"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
